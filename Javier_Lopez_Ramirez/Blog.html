@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    
+</head>
+
+<body background="images/fondocontacto.jpg">
+    <center>
+    <div style="text-align: center; margin-top: 1%;">
+        
+        <button><a href="index.html">Home</a></button>
+        <button><a href="Galería.html">Galería</a></button>
+        <button><a href="Blog.html">Blog</a></button>
+        <button><a href="contacto.html">Contacto</a></button>
+    </div>
+
+    <div style="margin-top: 5%; margin-left: 5%;">
+        <video width="500" height="300" controls autoplay>
+            <source src="videos/Black Desert Online - Official Steam Launch Trailer.mp4" type="video/mp4">
+            Tu navegador no soporta los vídeos de HTML5
+        </video>
+    </div>
+    <div style="margin-bottom: 1%;margin-top: 2%;margin-left: 5%">
+    <button onclick="playPause()">Reproducir/Pausar</button>
+    <button onclick="reload()">Recargar</button>
+    <button onclick="makeLarge()">Bajar Volumen</button>
+    <button onclick="makeSmall()">Subir Volumen</button>
+    <button onclick="makeNormal()">Silenciar</button>
+    </div>  
+
+    <div style="margin-top: 2%; margin-bottom: 2%; margin-left: 5%">
+    <label for="file" >File progress:</label>
+    <progress id="file" max="100" value="70"> 70% </progress>
+    </div> 
+
+    <div style="margin-top: ; margin-left: 5%;">
+        <iframe 
+        width="500" height="300" src="https://www.youtube.com/embed/62xQFLLypc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+</center>
+    
+    
+</body>
+</html>

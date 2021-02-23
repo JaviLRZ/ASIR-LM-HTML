@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de contacto</title>
+</head>
+    <body background="images/fondocontacto.jpg" style="background-repeat: no-repeat;"> 
+
+        <div style="text-align: center; margin-top: 5%;">
+            <button><a href="index.html">Home</a></button>
+            <button><a href="Galería.html">Galería</a></button>
+            <button><a href="Blog.html">Blog</a></button>
+            <button><a href="contacto.html">Contacto</a></button>
+        </div>
+
+        <form>
+            <div style="margin-left: 25%; margin-top: 5%;" >
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" style="width: 200px;" required placeholder="Nombre">
+            
+            
+                <label for="apellidos" style="margin-left: 50px;">Apellido 1:</label>
+                <input type="text" style="width: 200px;" required placeholder="Apellido 1">
+            
+                <label for="apellidos" style="margin-left: 50px;">Apellido 2:</label>
+                <input type="text" style="width: 200px;" required placeholder="Apellido 2">
+            </p>
+
+            <p style="margin-top: 20px;">
+
+                <label for="pass">Contraseña:</label>
+                <input type="password" style="width: 180px;" required="password" name="contrseña" minlength="8" id="pass">
+
+                <label for="email" style="margin-left: 50px;">Correo electronico :</label>
+                <input type="email" style="width: 145px;"required placeholder="ejemplo@correo.com">
+
+                <label for="fecha" style="margin-left: 50px;">Fecha de nacimiento:</label>
+                <input type="date"  required="fecha" value="1999-01-01">
+            </p>
+             
+            <p style="margin-top: 50px;">
+
+                <label for="nombre">Telf 1:</label>
+                <input type="tel" required="tel" placeholder="Telefono 1">
+            
+                <label for="nombre"style="margin-left: 50px;">Telf 2:</label>
+                <input type="tel" placeholder="Telefono 2">
+            
+            </p>
+
+            <p style="margin-top: 50px;">
+                <label for="nombre">Pais:</label>
+                <input type="text" style="width: 190px;" required="Pais" placeholder="Nombre de destino">
+            </p>
+
+            <p>
+                <label for="nombre">Ciudad:</label>
+                <input type="text" placeholder="Nombre de destino">
+            </p>
+
+            <p style="margin-top: 50px;">
+                <label for="file">Downloading progress:</label>
+                <progress id="file" value="32" max="100"> 32% </progress>
+            </p>
+
+            <p style="margin-top: 50px;">
+
+                <label>Elige tú navegador predeterminado:
+                    <input list="browsers" name="myBrowser" /></label>
+                    <datalist id="browsers">
+                      <option value="Chrome">
+                      <option value="Firefox">
+                      <option value="Internet Explorer">
+                      <option value="Opera">
+                      <option value="Safari">
+                      <option value="Microsoft Edge">
+                    </datalist>
+            </p>
+
+            <p style="margin-top: 50px;">
+                <input type="radio"> 
+                <label for="nombre"> Si quiero recibir Publicidad:</label>    
+            </p>        
+            
+            <p style="margin-top: 50px;">
+                <input type="checkbox">   
+                <label for="nombre"> Estas de acuerdo con nuestros terminos:</label>  
+            </p>
+
+        </div>
+
+            <p>
+                <button type="submit" style="margin-left: 25%; margin-top: 20px;">Completado</button>
+            </p>
+
+        </form>  
+    </body>
+</html>
